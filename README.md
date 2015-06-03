@@ -1,8 +1,12 @@
-# <center> EVENT PLANNING BUDGET COUNTER
+# <center> EVENTCULATOR
+## <center> an event budget planning app
+
+[link to TRELLO](https://trello.com/b/EvoTMptu/project4simmy)
+
 ---
 <center><img src="http://234v6f3f0tjn3jq4mv5l5ih5lc.wpengine.netdna-cdn.com/wp-content/themes/Feasts_of_Fancy_v1/img/aboutvenue.png">
 
-###A TO DO LIST CALCULATOR for an  Event Planning Budget  
+###A TO DO LIST CALCULATOR for an  Event Planning Budget
 
 ### <center> User Stories
 ---
