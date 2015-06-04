@@ -35,71 +35,78 @@
 '/index page'
 ```
 
->  #eventculator
+<center><img src="Screen Shot 2015-06-04 at 1.08.20 PM.png" width='800'>
 
-> **event planning app**
-  <img src="http://uxrepo.com/static/icon-sets/typicons/svg/calculator.svg" width='50'>
 
-> |  |  |
-| ------ | ----------- |
-| PROJECT ID NAME  | input label |
-| NAME OF THE EVENT | input label |
-| *| SUBMIT |
 
 ```
 '/event page'
 ```
 
->  #eventculator
 
-> **choose  your project**
-  <img src="http://uxrepo.com/static/icon-sets/typicons/svg/calculator.svg" width='50'>
+<center><img src="Screen Shot 2015-06-04 at 1.08.26 PM.png" width='800'>
 
->
-|  |  |
-| ------ | -- |
-| NAME of project 1 | choose project & plan event BUTTON|
-| NAME of project 2 | choose project & plan event BUTTON|
-| NAME of project 3 | choose project & plan event BUTTON|
+
 
 ```
 '/eventID page'
-```
+```  
 
->  #eventculator
+<center><img src="Screen Shot 2015-06-04 at 1.08.29 PM.png" width='800'>
 
-><img src="http://uxrepo.com/static/icon-sets/typicons/svg/calculator.svg" width='50'>
-  ### EVENT NAME
-  ### $30,000
-
->
-|  |  | | |  | | |
-| ---------------- | ----------- |--------- |-------- |------------- |
-| enter item | enter no of items | price of each |enter photo url| enter website | enter contact | SUBMIT|
-
->*
 
 
 ```
 '/eventID page'
 ```
 
->  #eventculator
-
-><img src="http://uxrepo.com/static/icon-sets/typicons/svg/calculator.svg" width='50'>
-  ### EVENT NAME
-  ### $,23,500
+<center><img src="Screen Shot 2015-06-04 at 1.08.33 PM.png" width='800'>
 
 
 
-  >### 4 BRIDESMAIDS DRESSES * <img src="http://www.brides.com/images/2013_bridescom/Editorial_Images/02/blue-bridesmaids-dresses-styles/large/blue-bridesmaids-dresses-styles-aria-276KP-3.jpg" width='60'> * DRESSES.COM .. 212-867-5309 .. $500 .. - delete - update
-  >### 1 VENUE <img src="http://234v6f3f0tjn3jq4mv5l5ih5lc.wpengine.netdna-cdn.com/wp-content/themes/Feasts_of_Fancy_v1/img/aboutvenue.png" width='150'> * VENUE.COM.. 212-739-6385.. $6,000.. - delete - update
->
-|  |  | | |  | | |
-| ---------------- | ----------- |--------- |-------- |------------- |
-| enter item | enter no of items | price of each |enter photo url| enter website | enter contact | SUBMIT|
 
->*
+```
+*
+```
+
+<center><img src="Screen Shot 2015-06-04 at 1.08.36 PM.png" width='800'>
+
+
+
+```
+'/event id page'
+```
+<center><img src="Screen Shot 2015-06-04 at 1.08.42 PM.png" width='800'>
+
+
+
+```
+'/event id page'
+```
+<center><img src="Screen Shot 2015-06-04 at 1.08.45 PM.png" width='800'>
+
+
+
+```
+'/event id page'
+```
+<center><img src="Screen Shot 2015-06-04 at 1.08.47 PM.png" width='800'>
+
+
+
+```
+'/event id page'
+```
+<center><img src="Screen Shot 2015-06-04 at 1.08.50 PM.png" width='800'>
+
+
+
+```
+'/event id page'
+```
+
+<center><img src="Screen Shot 2015-06-04 at 1.08.52 PM.png" width='800'>
+
 
 
 ```
