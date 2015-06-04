@@ -15,21 +15,49 @@
 ### <center> User Stories
 ---
 
-#### User will add categories/items, with price.
-#### The user while selecting and adding cost, the budget number will decline.
-
-
-
+#### The user can see how purchases immediatley effect the budget. for an event that he/she is planning by just adding items the user will be needing for the event.
 
 
 ### <center> Features
 ---
 
-#### After arriving at the homepage user will add (maybe select and delete) add price with the option of adding photo url, number of items and price of each item.
+#### 1. User can enter project name, event, budget.
 
-#### As the user adds items and cost, the budget number will decline and will always appear even if the user scrolls throught the log.
+#### 2. The budget $number will always appear.
+#### 3. The can user can add items for purchase.
+#### Each item will have details
+####a.- how many, b.-  price, c.- photo url, d.- contact info,
+#### Total Cost should appear for each item.
 
-#### Users (maybe) has the option of  making a printable spreadsheet.
+#### 4. The user can
+####create add update and delete item purchases
+####5. and the budget $number will appear updated
+####(decrease/increase) as a constant reminder.
+---
+###ERD
+##planners
+
+| keys | values |
+| ------ | ----------- |
+| id  | INTEGER PRIMARY KEY |
+| name | VARCHAR |
+| event| VARCHAR |
+| budget| FLOAT |
+
+##budgets
+
+| keys | values |
+| ------ | ----------- |
+| id  | INTEGER |
+| planner_id | FOREIGN KEY REFERENCES planners(id) |
+| item | VARCHAR |
+| no_item | INTEGER |
+| price | FLOAT |
+| photo_url | TEXT |
+| website_add | TEXT |
+| contact_info | TEXT |
+
+---
 
 ```
 '/index page'
