@@ -49,7 +49,7 @@
 | keys | values |
 | ------ | ----------- |
 | id  | INTEGER |
-| planner_id | FOREIGN KEY REFERENCES planners(id) |
+| planner_id | INTEGER |
 | item | VARCHAR |
 | no_item | INTEGER |
 | price | FLOAT |
