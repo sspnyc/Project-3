@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Planner Lists</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Event</th>
+      <th>Budget</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @planner_lists.each do |planner_list| %>
+      <tr>
+        <td><%= planner_list.name %></td>
+        <td><%= planner_list.event %></td>
+        <td><%= planner_list.budget %></td>
+        <td><%= link_to 'Show', planner_list %></td>
+        <td><%= link_to 'Edit', edit_planner_list_path(planner_list) %></td>
+        <td><%= link_to 'Destroy', planner_list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Planner list', new_planner_list_path %>
