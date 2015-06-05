@@ -35,27 +35,32 @@
 ####(decrease/increase) as a constant reminder.
 ---
 ###ERD
-##planners
+##user
 
 | keys | values |
 | ------ | ----------- |
 | id  | INTEGER PRIMARY KEY |
-| name | VARCHAR |
-| event| VARCHAR |
-| budget| FLOAT |
+| enter_username | STRING |
 
-##budgets
+##planner_list
 
 | keys | values |
 | ------ | ----------- |
-| id  | INTEGER |
-| planner_id | INTEGER |
+| id  | INTEGER PRIMARY KEY |
+| event | STRING |
+| budget| FLOAT |
+
+##budget_item
+
+| keys | values |
+| ------ | ----------- |
+| id  | INTEGER PRIMARY KEY |
 | item | VARCHAR |
-| no_item | INTEGER |
-| price | FLOAT |
-| photo_url | TEXT |
-| website_add | TEXT |
-| contact_info | TEXT |
+| no_of_items | INTEGER |
+| price_of_each | FLOAT |
+| photo_url | STRING |
+| website | STRING |
+| contact | STRING |
 
 ---
 
