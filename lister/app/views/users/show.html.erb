@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Enter username:</strong>
+  <%= @user.enter_username %>
+</p>
+
+<div id="planner_lists_wrapper">
+  <% render "planner_lists/form"%>
+</div>
+</div>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>name:</strong>
+  <%= @budget.name %>
+</p>
+
+<p>
+  <strong>event:</strong>
+  <%= @budget.event %>
+</p>
+
+<p>
+  <strong>budget:</strong>
+  <%= @budget.budget %>
+</p>
+
+<p>
+  <strong>item:</strong>
+  <%= @budget.item %>
+</p>
+
+<p>
+  <strong>no_item:</strong>
+  <%= @budget.no_item %>
+</p>
+
+<p>
+  <strong>price:</strong>
+  <%= @budget.price %>
+</p>
+
+<p>
+  <strong>photo_url:</strong>
+  <%= @budget.photo_url %>
+</p>
+
+<p>
+  <strong>website_add:</strong>
+  <%= @budget.website_add %>
+</p>
+
+<p>
+  <strong>contact-info:</strong>
+  <%= @budget.contact_info %>
+</p>
+
+<%= link_to 'Update', edit_budget_path(@budget) %> |
+<%= link_to 'Back', budgets_path %>

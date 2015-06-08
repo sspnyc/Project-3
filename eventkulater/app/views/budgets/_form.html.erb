@@ -1,0 +1,54 @@
+<%= form_for(@budget) do |f| %>
+  <% if @budget.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@budget.errors.count, "error") %> prohibited this budget from being saved:</h2>
+
+      <ul>
+      <% @budget.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :enter_a_username %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :name_of_your_event %><br>
+    <%= f.text_field :event %>
+  </div>
+  <div class="field">
+    <%= f.label :what_is_your_budget %><br>
+    <%= f.text_field :budget %>
+  </div>
+  <div class="field">
+<%= f.label :item %><br>
+    <%= f.text_field :item %>
+  </div>
+  <div class="field">
+    <%= f.label :how_many %><br>
+    <%= f.number_field :no_item %>
+  </div>
+  <div class="field">
+    <%= f.label :price_per_item %><br>
+    <%= f.text_field :price %>
+  </div>
+  <div class="field">
+    <%= f.label :url_link_photo_of_item %><br>
+    <%= f.text_field :photo_url %>
+  </div>
+  <div class="field">
+    <%= f.label :item_website %><br>
+    <%= f.text_field :website_add %>
+  </div>
+  <div class="field">
+    <%= f.label :contact_information %><br>
+    <%= f.text_field :contact_info %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+  <% end %>    
+

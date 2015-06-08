@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<h1>EVENTKULATER</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Event</th>
+      <th>Budget</th>
+      <th>Item</th>
+      <th>No item</th>
+      <th>Price</th>
+      <th>Photo url</th>
+      <th>Website add</th>
+      <th>Contact info</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @budgets.each do |budget| %>
+      <tr>
+        <td><%= budget.name %></td>
+        <td><%= budget.event %></td>
+        <td><%= budget.budget %></td>
+        <td><%= budget.item %></td>
+        <td><%= budget.no_item %></td>
+        <td><%= budget.price %></td>
+        <td><%= budget.photo_url %></td>
+        <td><%= budget.website_add %></td>
+        <td><%= budget.contact_info %></td>
+        <td><%= link_to 'Show', budget %></td>
+        <td><%= link_to 'Edit', edit_budget_path(budget) %></td>
+        <td><%= link_to 'Destroy', budget, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Planner Project', new_budget_path %>
+
+<% end %>

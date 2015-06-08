@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  item: MyString
+  no_of_items: 1
+  price_of_each: 1.5
+  photo_url: MyString
+  contact: MyString
+  planner_list_id: 
+
+two:
+  item: MyString
+  no_of_items: 1
+  price_of_each: 1.5
+  photo_url: MyString
+  contact: MyString
+  planner_list_id: 

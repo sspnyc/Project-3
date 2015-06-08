@@ -1,0 +1,70 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+#index {
+  color: white;
+  text-align: center;
+  background-image: url("http://www.orensanzevents.com/images/orensanz_events_space1.jpg");
+  background-attachment: fixed;
+  padding: 50px;
+  text-shadow: 2px 2px 2px black;
+}
+
+button {
+  color: black;
+  margin: 50px;
+  padding: 10px;
+}
+
+#new {
+  color: white;
+  text-align: left;
+  background-image: url("http://www.orensanzevents.com/images/orensanz_events_space8.jpg");
+  padding: 20px;
+  text-shadow: 2px 2px 2px black;
+  font-size: 40px; 
+}
+
+.container {
+  position: relative;
+}
+
+p {
+  float: left;
+}
+
+#show {
+  color: white;
+  text-align: center;
+  background-image: url("http://www.orensanzevents.com/images/orensanz_events_space8.jpg");
+  padding: 20px;
+}
+
+#edit {
+  color: white;
+  text-align: center;
+  background-image: url("http://www.orensanzevents.com/images/orensanz_events_space8.jpg");
+  padding: 20px;
+}
+
+#error {
+  text-align: center;
+  font-size: 60px;
+  color: red;
+}
+
+
