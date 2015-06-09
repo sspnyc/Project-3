@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>purchase:</strong>
+  <%= @list.item %>
+</p>
+
+<p>
+  <strong>description:</strong>
+  <%= @list.description %>
+</p>
+
+<p>
+  <strong>pic:</strong>
+  <%= @list.photo %>
+</p>
+
+<p>
+  <strong>info:</strong>
+  <%= @list.contact %>
+</p>
+
+<p>
+  <strong>total:</strong>
+  <%= @list.cost %>
+</p>
+
+<%= link_to 'make changes', edit_list_path(@list) %> |
+<%= link_to 'check purchase log', lists_path %>

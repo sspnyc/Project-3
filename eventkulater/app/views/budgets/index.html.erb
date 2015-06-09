@@ -11,7 +11,7 @@
       <th>Item</th>
       <th>No item</th>
       <th>Price</th>
-      <th>Photo url</th>
+      <th>photo</th>
       <th>Website add</th>
       <th>Contact info</th>
       <th colspan="3"></th>
@@ -27,7 +27,7 @@
         <td><%= budget.item %></td>
         <td><%= budget.no_item %></td>
         <td><%= budget.price %></td>
-        <td><%= budget.photo_url %></td>
+        <td><img src=<%= budget.photo_url %> height="50" width="50"></td>
         <td><%= budget.website_add %></td>
         <td><%= budget.contact_info %></td>
         <td><%= link_to 'Show', budget %></td>
@@ -42,4 +42,3 @@
 
 <%= link_to 'Planner Project', new_budget_path %>
 
-<% end %>

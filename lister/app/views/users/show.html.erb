@@ -1,14 +1,10 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Enter username:</strong>
-  <%= @user.enter_username %>
-</p>
+<section>
+  <img src='<%= @budget.photo_url %>'>
+  <h3><%= budget_list.item %>  <%= budget_list.contact %> <%= budget_list.contact %></h3>
+</section>
 
-<div id="planner_lists_wrapper">
-  <% render "planner_lists/form"%>
-</div>
-</div>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>

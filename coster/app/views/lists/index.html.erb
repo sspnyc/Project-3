@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Eventkulator</h1>
+<h3>a purchase logger to track your event planning budget</h3>
+
+<br>
+
+<table>
+  <thead>
+    <tr>
+      <th>purchase</th>
+      <th>description</th>
+      <th>pic</th>
+      <th>info</th>
+      <th>total</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @lists.each do |list| %>
+      <tr>
+        <td><%= list.item %></td>
+        <td><%= list.description %></td>
+        <td><img src=<%= list.photo %> height="50" width="50"></td>
+        <td><%= list.contact %></td>
+        <td>$<%= list.cost %></td> 
+        <td><%= link_to 'Show', list %></td>
+        <td><%= link_to 'Edit', edit_list_path(list) %></td>
+        <td><%= link_to 'Destroy', list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+
+<%= link_to 'add to log of purchases for your event', new_list_path %>
+
